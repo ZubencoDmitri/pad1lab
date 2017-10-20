@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e30c2596-6956-42b5-aca7-71eccce74821" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PADlab12/Broker/Broker.class" afterPath="$PROJECT_DIR$/out/production/PADlab12/Broker/Broker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PADlab12/Receiver/Receiver.class" afterPath="$PROJECT_DIR$/out/production/PADlab12/Receiver/Receiver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PADlab12/Sender/Sender.class" afterPath="$PROJECT_DIR$/out/production/PADlab12/Sender/Sender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PADlab12/xPlatform/BrokerService$1.class" afterPath="$PROJECT_DIR$/out/production/PADlab12/xPlatform/BrokerService$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PADlab12/xPlatform/BrokerService$2.class" afterPath="$PROJECT_DIR$/out/production/PADlab12/xPlatform/BrokerService$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PADlab12/xPlatform/BrokerService.class" afterPath="$PROJECT_DIR$/out/production/PADlab12/xPlatform/BrokerService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PADlab12/xPlatform/IOperation.class" afterPath="$PROJECT_DIR$/out/production/PADlab12/xPlatform/IOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PADlab12/xPlatform/TransportService.class" afterPath="$PROJECT_DIR$/out/production/PADlab12/xPlatform/TransportService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Broker/Broker.java" afterPath="$PROJECT_DIR$/src/Broker/Broker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sender/Sender.java" afterPath="$PROJECT_DIR$/src/Sender/Sender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xPlatform/BrokerService.java" afterPath="$PROJECT_DIR$/src/xPlatform/BrokerService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xPlatform/IOperation.java" afterPath="$PROJECT_DIR$/src/xPlatform/IOperation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xPlatform/TransportService.java" afterPath="$PROJECT_DIR$/src/xPlatform/TransportService.java" />
-    </list>
+    <list default="true" id="e30c2596-6956-42b5-aca7-71eccce74821" name="Default" comment="" />
     <ignored path="PADlab12.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -809,7 +794,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
