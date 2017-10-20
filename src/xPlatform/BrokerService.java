@@ -14,7 +14,7 @@ import java.util.function.Predicate;
 public class BrokerService implements IOperation {
     private ServerSocket serverSocket;                          //Server Socket(broker)
     private List<Letter> letterList;                            //List of letters(name+message)
-    private List<Receiver>receiversList;                       //List of active receivers
+    private List<Receiver> receiversList;                       //List of active receivers
     public BrokerService() {
         letterList =new ArrayList<>();                          //List creating
         receiversList=new ArrayList<>();
@@ -30,6 +30,9 @@ public class BrokerService implements IOperation {
         Socket connectionSocket = null;
         Consumer<Receiver> styleRec = (Receiver p) -> System.out.println("Name: "+p.getName() +", Socket: "+p.getSocket());
         Consumer<Letter> printLetterConsumer= (Letter l)-> System.out.print("Name:"+l.getName()+", Message text: "+l.getMessage());
+//        Consumer<Letter> writeLetterConsumer = (Letter l1)-> String t = l1.getName()+l1.getMessage();
+
+
         try {
             connectionSocket = serverSocket.accept();
         } catch (IOException e) {
@@ -113,8 +116,9 @@ public class BrokerService implements IOperation {
                 receiversList.forEach(styleRec);
                 System.out.println("--Letters List--");
                 letterList.forEach(printLetterConsumer);
+//                String letter1 = letterList.forEach(printLetterConsumer);
                 return answer;
-
+                //obj.serializeMessageJDK7(letter1);
             }
         };
 
@@ -150,7 +154,7 @@ public class BrokerService implements IOperation {
                         e.printStackTrace();
                     }
                     letter.setSent(true);
-                    System.out.println("--Receiver name and Letter name adress MATCH--");
+                    System.out.println("--Receiver name and Letter name address MATCH--");
                     System.out.println("Receiver name: "+receiver.getName());
                     System.out.println("Letter name: "+letter.getName());
                     System.out.println("Message: "+letter.getMessage()+" was transmitted to "+letter.getName()+" succesfully...");
@@ -163,6 +167,8 @@ public class BrokerService implements IOperation {
                     e.printStackTrace();
                 }
         };
+
+
         Runnable r=new Runnable() {
             @Override
             public void run() {
